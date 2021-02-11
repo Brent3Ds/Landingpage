@@ -1,5 +1,6 @@
 #header-img{
     height: 100px; width: 100px;
+
 }
 li{
     list-style-type: none;
@@ -26,4 +27,31 @@ body{
 
 li:hover{
     background-color:darkred;
+}
+
+#header{
+    position: fixed;
+    display: flex;
+}
+
+#VB{
+    margin: 0 auto 0;
+    width: 550px;
+    height: 305px;
+    padding-top: 150px;
+}
+
+#textbox{
+    margin: 150px auto 0;
+    width: 225px;
+}
+
+@media (max-width: 700px) {
+    #VB{
+        margin: 0 auto 0;
+        width: 200px;
+        height: 150px;
+        padding-top: 150px;
+    }
+    
 }
